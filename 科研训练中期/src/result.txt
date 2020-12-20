@@ -1,0 +1,30 @@
+DNE:
+2.808 sec
+data size:  17716
+label size:  4
+train size:  (128, 15944)
+test size:  (128, 1772)
+(1772, 4)
+acc : 83.35 %
+
+
+LQANR:
+分类器：
+线性SVM：
+train acc : 90.03 %
+test acc : 81.55 %
+
+SVM  with RBF(使用闭解):
+train acc : 92.70 %
+test acc : 87.82 %
+
+SVM  with RBF(使用GD):
+train acc : 94.13 %
+test acc : 88.19 %
+
+
+nn:
+epoch 8, train acc: 100.00 %  test acc: 84.50 %
+
+bnn:
+epoch 19, train acc: 78.13 %  test acc: 67.90 %
